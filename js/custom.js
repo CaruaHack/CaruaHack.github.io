@@ -358,7 +358,7 @@ jQuery(function($){
 	  var zoom= $('#map_canvas').gmap('option', 'zoom');
       
       $('#map_canvas').gmap().bind('init', function(ev, map) {
-        $('#map_canvas').gmap('addMarker', {'position': '57.7973433,12.0502107', 'bounds': true});
+        $('#map_canvas').gmap('addMarker', {'position': '-8.285639,-35.970187', 'bounds': true});
         $('#map_canvas').gmap('option', 'zoom', 13);
       });
 
@@ -389,7 +389,7 @@ jQuery(function($){
 	/*  13. PRELOADER 
 	/* ----------------------------------------------------------- */ 
 
-	  jQuery(window).load(function() { // makes sure the whole site is loaded
+	jQuery(window).load(function() { // makes sure the whole site is loaded
       $('#status').fadeOut(); // will first fade out the loading animation
       $('#preloader').delay(100).fadeOut('slow'); // will fade out the white DIV that covers the website.
       $('body').delay(100).css({'overflow':'visible'});
